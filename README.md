@@ -7,7 +7,7 @@
 
 
 ## Блок-схема
-![Блок-схема](https://github.com)
+![Блок-схема](https://github.com/BuroffSergey/Homework_C-/blob/main/blok-diogram_c%23.png)
 
 
 ## Решение
