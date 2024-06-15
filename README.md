@@ -7,12 +7,12 @@
 
 
 ## Блок-схема
-![Блок-схема](https://github.com/BuroffSergey/Homework_C-/blob/main/Program.cs)
+![Блок-схема](https://github.com/BuroffSergey/Homework_C-/blob/main/blok-diogram_c%23.png)
 
 
 ## Решение
 
 
-![Решение](https://github.com/BuroffSergey/Homework_C-/blob/main/Без%20имени.png
+![Решение](https://github.com/BuroffSergey/Homework_C-/blob/main/Без%20имени.png)
 
 
