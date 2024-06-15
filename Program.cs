@@ -1,41 +1,41 @@
-﻿string[] array = new string[] {};
+﻿string[] inputArray = new string[] {};
 
 string fromUser = ReadInput("Введите команду: ");
 switch (fromUser)
 {
     case "1":
-        array = new string[] { "Hello", "2", "world", ":-)" };
+        inputArray = new string[] { "Hello", "2", "world", ":-)" };
         break;
     case "2":
-        array = new string[] { "1234", "1567", "-2", "computer science" };
+        inputArray = new string[] { "1234", "1567", "-2", "computer science" };
         break;
     case "3":
-        array = new string[] { "Russia", "Denmark", "Kazan" };
+        inputArray = new string[] { "Russia", "Denmark", "Kazan" };
         break;
     default:
         Console.WriteLine($"{fromUser} - Такой команды нет");
         break;
 }
-
+int maxLength = 3;
 int lenNewArray = 0;
-for (int i = 0; i <= array.Length - 1; i++)
+for (int i = 0; i <= inputArray.Length - 1; i++)
 {
-    if (array[i].Length <= 3) lenNewArray++;
+    if (inputArray[i].Length <= maxLength) lenNewArray++;
 }
 
 string[] newArray = new string[lenNewArray];
 int idx = 0;
 
-for (int i = 0; i <= array.Length - 1; i++)
+for (int i = 0; i <= inputArray.Length - 1; i++)
 {
-    if (array[i].Length <= 3)
+    if (inputArray[i].Length <= maxLength)
     {
-        newArray[idx] = array[i];
+        newArray[idx] = inputArray[i];
         idx++;
     }
 }
 
-PrintArray(array);
+PrintArray(inputArray);
 Console.Write("→ ");
 PrintArray(newArray);
 
