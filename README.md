@@ -13,7 +13,7 @@
 ## Решение
 
 
-![Блок-схема](https://github.com/BuroffSergey/Homework_C-/blob/main/Без%20имени.png
+![Решение](https://github.com/BuroffSergey/Homework_C-/blob/main/Без%20имени.png
 
 string[] inputArray = new string[] {};
 
